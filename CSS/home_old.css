@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+a{text-decoration: none;}
+
+a:hover{text-decoration: none;}
+
+li{list-style: none;}
+
+p{
+    font-size: 1.3rem;
+    line-height: 0.9;
+    font-weight: 400;
+    color: #606060;
+}
+
+.extra-div h2, .servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px; 
+ }
+
+ i{
+     color: #16a085;
+ }
+/* ******************************starting Heder part******************************************** */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 255, 145, 0.3),rgba(0, 255, 229, 0.379)), url('../image/main.jpg');
+    position: relative;
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0 0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right,#16a085 0%,#16a085 0%,#16a085 100%);
+}
+
+.navbar::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right,#16a085 0%,#16a085 0%,#16a085 100%);
+}
+
+.nav-item a{
+color: #fff!important;
+font-weight: bold;
+}
+
+
+
+.heder-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.heder-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.heder-button a:hover{
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+
+/* **************************************Ending header part*********************** */
+
+
+/* ******************************three Extra div Start******************************************* */
+    
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 44px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+
+ }
+
+
+ /* ******************************three Extra div End******************************************* */

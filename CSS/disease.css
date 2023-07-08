@@ -1,0 +1,57 @@
+.actions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #btnSubmit {
+    min-width: 128px;
+    height: 40px;
+    padding: 0 40px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background: #16a085;
+    cursor: pointer;
+    flex-grow: 1;
+    box-sizing: border-box;
+  }
+  
+  #prediction {
+    flex-grow: 5;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #299b63;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+    min-height: 40px;
+  }
+  @import 'variables.css';
+  .disease-prediction {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  background-color: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  border: solid 2px white;
+  max-width: 900px;
+  max-height: 400px;
+  gap: 7px;
+  font-size: 16px;
+  padding: 5px;
+  justify-content: space-between;
+  } 
+  .symptoms-container .symptom label {
+    cursor: pointer;
+  }
+  
+
+ 
